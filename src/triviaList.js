@@ -134,7 +134,7 @@ function TriviaList() {
           onChange={handleChange}
         />
         <Button variant="outlined">X</Button> */}
-        <InputLabel htmlFor="input-with-icon-adornment">
+        <InputLabel className={classes.label} htmlFor="input-with-icon-adornment">
           Type Question Here
         </InputLabel>
         <Input
