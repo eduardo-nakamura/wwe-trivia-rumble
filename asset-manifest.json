@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wwe-trivia-rumble/static/css/main.02697ad3.chunk.css",
-    "main.js": "/wwe-trivia-rumble/static/js/main.8864d565.chunk.js",
-    "main.js.map": "/wwe-trivia-rumble/static/js/main.8864d565.chunk.js.map",
+    "main.js": "/wwe-trivia-rumble/static/js/main.8c364666.chunk.js",
+    "main.js.map": "/wwe-trivia-rumble/static/js/main.8c364666.chunk.js.map",
     "runtime-main.js": "/wwe-trivia-rumble/static/js/runtime-main.51a6298f.js",
     "runtime-main.js.map": "/wwe-trivia-rumble/static/js/runtime-main.51a6298f.js.map",
     "static/css/2.ef8ee1b4.chunk.css": "/wwe-trivia-rumble/static/css/2.ef8ee1b4.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.ef8ee1b4.chunk.css",
     "static/js/2.dd98d441.chunk.js",
     "static/css/main.02697ad3.chunk.css",
-    "static/js/main.8864d565.chunk.js"
+    "static/js/main.8c364666.chunk.js"
   ]
 }
