@@ -106,7 +106,7 @@ function TriviaList() {
       man.Question.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchTermLength(results.length);
-    setFilteredQuestions(results.slice(0, 20));
+    setFilteredQuestions(results.slice(0, 30));
   }, [searchTerm]);
   const clearSearch = () => {
     setSearchTerm('');
