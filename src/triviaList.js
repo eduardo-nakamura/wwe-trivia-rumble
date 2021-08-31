@@ -219,6 +219,7 @@ function TriviaList() {
                         height: "30px",
                         width: "30px",
                         backgroundImage: `url(./img/${row.Id}.png)`,
+                        backgroundSize: 'cover'
                       }}
                     ></div>
                   </TableCell>
