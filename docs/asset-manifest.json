@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/wwe-trivia-rumble/static/css/main.02697ad3.chunk.css",
-    "main.js": "/wwe-trivia-rumble/static/js/main.6ea181ab.chunk.js",
-    "main.js.map": "/wwe-trivia-rumble/static/js/main.6ea181ab.chunk.js.map",
-    "runtime-main.js": "/wwe-trivia-rumble/static/js/runtime-main.f563b2f7.js",
-    "runtime-main.js.map": "/wwe-trivia-rumble/static/js/runtime-main.f563b2f7.js.map",
+    "main.js": "/wwe-trivia-rumble/static/js/main.9d257fea.chunk.js",
+    "main.js.map": "/wwe-trivia-rumble/static/js/main.9d257fea.chunk.js.map",
+    "runtime-main.js": "/wwe-trivia-rumble/static/js/runtime-main.e06e5f84.js",
+    "runtime-main.js.map": "/wwe-trivia-rumble/static/js/runtime-main.e06e5f84.js.map",
     "static/css/2.ef8ee1b4.chunk.css": "/wwe-trivia-rumble/static/css/2.ef8ee1b4.chunk.css",
-    "static/js/2.9389d224.chunk.js": "/wwe-trivia-rumble/static/js/2.9389d224.chunk.js",
-    "static/js/2.9389d224.chunk.js.map": "/wwe-trivia-rumble/static/js/2.9389d224.chunk.js.map",
-    "static/js/3.8ac36800.chunk.js": "/wwe-trivia-rumble/static/js/3.8ac36800.chunk.js",
-    "static/js/3.8ac36800.chunk.js.map": "/wwe-trivia-rumble/static/js/3.8ac36800.chunk.js.map",
+    "static/js/2.e1c4be94.chunk.js": "/wwe-trivia-rumble/static/js/2.e1c4be94.chunk.js",
+    "static/js/2.e1c4be94.chunk.js.map": "/wwe-trivia-rumble/static/js/2.e1c4be94.chunk.js.map",
+    "static/js/3.104c49c3.chunk.js": "/wwe-trivia-rumble/static/js/3.104c49c3.chunk.js",
+    "static/js/3.104c49c3.chunk.js.map": "/wwe-trivia-rumble/static/js/3.104c49c3.chunk.js.map",
     "index.html": "/wwe-trivia-rumble/index.html",
     "static/css/2.ef8ee1b4.chunk.css.map": "/wwe-trivia-rumble/static/css/2.ef8ee1b4.chunk.css.map",
     "static/css/main.02697ad3.chunk.css.map": "/wwe-trivia-rumble/static/css/main.02697ad3.chunk.css.map",
-    "static/js/2.9389d224.chunk.js.LICENSE.txt": "/wwe-trivia-rumble/static/js/2.9389d224.chunk.js.LICENSE.txt",
+    "static/js/2.e1c4be94.chunk.js.LICENSE.txt": "/wwe-trivia-rumble/static/js/2.e1c4be94.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/wwe-trivia-rumble/static/media/outline-icons.ddae9b1b.woff",
     "static/media/logo.3d56e832.png": "/wwe-trivia-rumble/static/media/logo.3d56e832.png",
     "static/media/logo.6ce24c58.svg": "/wwe-trivia-rumble/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f563b2f7.js",
+    "static/js/runtime-main.e06e5f84.js",
     "static/css/2.ef8ee1b4.chunk.css",
-    "static/js/2.9389d224.chunk.js",
+    "static/js/2.e1c4be94.chunk.js",
     "static/css/main.02697ad3.chunk.css",
-    "static/js/main.6ea181ab.chunk.js"
+    "static/js/main.9d257fea.chunk.js"
   ]
 }
