@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import TriviaList from './triviaList'
+import TriviaNew from './triviaNew'
 
 function App() {
-  const sayHello = () => {
-    console.log('Gello')
-  }
+  
   return (
     <div>
+      {/* <TriviaNew /> */}
       <TriviaList />
     </div>
   );
