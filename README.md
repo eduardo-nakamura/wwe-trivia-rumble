@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# WWE CHAMPIONS TRIVIA LIST
+
+Trivia list for [https://wwechampions.com/trivia-rumble](https://wwechampions.com/trivia-rumble)
+You can type the Trivia Question to search for the Answer
+
+Last Update: 31 Aug 2021
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
