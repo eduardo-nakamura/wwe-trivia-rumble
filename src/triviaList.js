@@ -9,7 +9,6 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
 
 // table
 import Select from "@material-ui/core/Select";
@@ -18,28 +17,12 @@ import Input from "@material-ui/core/Input";
 import InputLabel from "@material-ui/core/InputLabel";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import ClearIcon from "@material-ui/icons/Clear";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 // columnsStart
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
 }
-
-const rows = [
-  createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
-  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
-  createData("Eclair", 262, 16.0, 24, 6.0),
-  createData("Cupcake", 305, 3.7, 67, 4.3),
-  createData("Gingerbread", 356, 16.0, 49, 3.9),
-  createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
-  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
-  createData("Eclair", 262, 16.0, 24, 6.0),
-  createData("Cupcake", 305, 3.7, 67, 4.3),
-  createData("Gingerbread", 356, 16.0, 49, 3.9),
-];
 
 // columnsEnd
 const useStyles = makeStyles({
@@ -103,18 +86,18 @@ const useStyles = makeStyles({
 
 function TriviaList() {
   // const triviaObj = TriviaListJson
-  const imgNums = [
-    100, 102, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1274, 1277, 1278,
-    1279, 1280, 1281, 1282, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291,
-    1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1301, 1302, 1309, 1310,
-    1311, 1312, 1313, 1314, 1315, 1316, 1328, 1329, 1330, 1332, 1333, 143, 163,
-    176, 177, 187, 189, 212, 217, 35, 351, 796, 814, 815, 816, 817, 818, 819,
-    820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 833, 834, 835,
-    836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850,
-    851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865,
-    866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880,
-    881, 882, 883, 884, 885, 886, 97, 98,
-  ];
+  // const imgNums = [
+  //   100, 102, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1274, 1277, 1278,
+  //   1279, 1280, 1281, 1282, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291,
+  //   1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1301, 1302, 1309, 1310,
+  //   1311, 1312, 1313, 1314, 1315, 1316, 1328, 1329, 1330, 1332, 1333, 143, 163,
+  //   176, 177, 187, 189, 212, 217, 35, 351, 796, 814, 815, 816, 817, 818, 819,
+  //   820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 833, 834, 835,
+  //   836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850,
+  //   851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865,
+  //   866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880,
+  //   881, 882, 883, 884, 885, 886, 97, 98,
+  // ];
   const [maxNum, setMaxNum] = useState(10);
   const [triviaObj, setTriviaObj] = useState(TriviaListJson["QuestionList"]);
   const [searchTerm, setSearchTerm] = useState("");
